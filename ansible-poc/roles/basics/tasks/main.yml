@@ -1,8 +1,0 @@
-- name: update root password
-  vars:
-   testaccount: root
-   testpassword: $6$iBuX.SecretHashedPasswordChanged
-  user:
-   name: "{{testaccount}}"
-   update_password: always
-   password: "{{testpassword}}"
